@@ -32,7 +32,7 @@ function rollDice() {
             life++;
         }
     }
-    let chance = (death / life * 100).toFixed(2);
+    let chance = (death / numOfRolls * 100).toFixed(2);
     alert(`Your brand new Ornate Blunderbuss, only 8 gold, incredible value wow has an approximately ${chance}% chance to explode 
     if you roll ${numOfDice} blue dice, good luck fellow value seeker!`);
 }
