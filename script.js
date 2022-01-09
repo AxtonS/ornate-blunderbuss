@@ -33,6 +33,6 @@ function rollDice() {
         }
     }
     let chance = (death / life * 100).toFixed(2);
-    alert(`Your brand new Ornate Blunderbuss, only 8 gold, incredible value wow has only an ${chance}% chance to explode 
-    if you roll ${numOfDice} blue dice over ${numOfRolls} combat rounds`);
+    alert(`Your brand new Ornate Blunderbuss, only 8 gold, incredible value wow has an approximately ${chance}% chance to explode 
+    if you roll ${numOfDice} blue dice, good luck fellow value seeker!`);
 }
