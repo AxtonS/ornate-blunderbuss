@@ -3,11 +3,13 @@ button.onclick = () => rollDice()
 
 function rollDice() {
     let numOfDice = prompt("How many blue dice do you have?");
-    let numOfRolls = prompt("How many combat rounds in a row do you want to calculate?");
+    let numOfRolls = 10000;
 
     let death = 0;
     let life = 0;
     for (let i = 0; i < numOfRolls; i++) {
+        if (numOfDice > 49) {
+            let numOfDice = prompt("Please enter a reasonable amount of blue dice >.>");
         let ones = 0;
         let eights = 0;
         for (let i = 0; i < numOfDice;) {
