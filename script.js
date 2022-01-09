@@ -8,8 +8,6 @@ function rollDice() {
     let death = 0;
     let life = 0;
     for (let i = 0; i < numOfRolls; i++) {
-        if (numOfDice > 49) {
-            let numOfDice = prompt("Please enter a reasonable amount of blue dice >.>");
         let ones = 0;
         let eights = 0;
         for (let i = 0; i < numOfDice;) {
