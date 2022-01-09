@@ -3,7 +3,7 @@ button.onclick = () => rollDice()
 
 function rollDice() {
     let numOfDice = prompt("How many blue dice do you have?");
-    let numOfRolls = 10000;
+    let numOfRolls = 99000;
 
     let death = 0;
     let life = 0;
